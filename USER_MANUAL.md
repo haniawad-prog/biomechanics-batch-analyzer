@@ -73,7 +73,7 @@ Examples:
 | `101R.csv` | `101` | May match by unique numeric ID |
 | `Specimen-0101` | `Specimen101` | May match after alphanumeric normalization |
 | `101R.csv` | Rows `101R` and `101L` | Full label can identify `101R`; a numbers-only label would be ambiguous |
-| `14-M6.csv` | `434R` | Requires an explicit alias or corrected identity record; the relationship is not inferred from unrelated numbers |
+| `Specimen-A.csv` | `9001` | Requires an explicit alias or corrected identity record; the relationship is not inferred from unrelated names |
 
 Repeated full labels may be disambiguated with a metadata `Instron Run #` column and a recognized run suffix in the testing filename. A run number is only a secondary key, not a replacement for specimen identity. Do not upload repeated tests as independent biological replicates unless the design justifies that treatment.
 
