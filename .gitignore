@@ -1,0 +1,14 @@
+# Only explicitly approved app source and schematic assets belong in this repo.
+*
+!.gitignore
+!app.py
+!specimen_labels.py
+!statistics_analysis.py
+!requirements.txt
+!test_public_app.py
+!three_point_bending_ap_schematic.png
+!four_point_bending_ap_schematic.png
+!tendon_tensile_schematic_user.png
+!.streamlit/
+.streamlit/*
+!.streamlit/config.toml
